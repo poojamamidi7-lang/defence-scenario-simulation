@@ -1,185 +1,160 @@
 import streamlit as st
-
-st.title("AI Defence Scenario Simulation Platform")
-
-st.write("Welcome to the simulation platform!")
-
-st.success("Website interface is working!")
-import streamlit as st
 import pandas as pd
 import joblib
-import sys
 import os
+import sys
 import plotly.express as px
 
+# --------------------------------------------------
+# PROJECT SETUP
+# --------------------------------------------------
 
-# =====================================================
-# PROJECT PATH
-# =====================================================
-
-project_folder = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..")
-)
-
+project_folder = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, project_folder)
 
 from simulation_engine import run_simulation
 
-
-# =====================================================
-# PAGE CONFIGURATION
-# =====================================================
-
-st.set_page_config(
-    page_title="AI Defence Scenario Simulation",
-    page_icon="🎯",
-    layout="wide"
-)
-
-
-# =====================================================
-# CUSTOM STYLE
-# =====================================================
-
-st.markdown("""
-<style>
-
-.main-title {
-    font-size: 42px;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-
-.subtitle {
-    font-size: 18px;
-    color: #9aa0a6;
-    margin-bottom: 25px;
-}
-
-.section-title {
-    font-size: 26px;
-    font-weight: 600;
-    margin-top: 20px;
-}
-
-.result-card {
-    padding: 20px;
-    border-radius: 12px;
-    background-color: #1f2937;
-    text-align: center;
-    border: 1px solid #374151;
-}
-
-.result-value {
-    font-size: 28px;
-    font-weight: 700;
-}
-
-.result-label {
-    font-size: 15px;
-    color: #9ca3af;
-}
-
-.footer {
-    text-align: center;
-    color: #8b949e;
-    margin-top: 40px;
-    padding: 20px;
-}
-
-</style>
-""", unsafe_allow_html=True)
-
-
-# =====================================================
-# LOAD MODEL
-# =====================================================
-
-model_path = os.path.join(
-    project_folder,
-    "models",
-    "scenario_model.pkl"
-)
+model_path = os.path.join(project_folder, "scenario_model.pkl")
 
 model = joblib.load(model_path)
 
 
+# --------------------------------------------------
+# PAGE CONFIGURATION
+# --------------------------------------------------
+
+st.set_page_config(
+    page_title="AI Defence Scenario Simulation",
+    page_icon="🛡️",
+    layout="wide"
+)
 
 
-
-# =====================================================
-# HEADER
-# =====================================================
+# --------------------------------------------------
+# CUSTOM CSS
+# --------------------------------------------------
 
 st.markdown(
-    '<div class="main-title">🎯 AI Defence Scenario Simulation Platform</div>',
+    """
+    <style>
+
+    .main-title {
+        font-size: 42px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid #dddddd;
+        margin-bottom: 15px;
+    }
+
+    .result-title {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .result-value {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 15px;
+        font-size: 13px;
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
+# --------------------------------------------------
+# TITLE
+# --------------------------------------------------
+
+st.markdown(
+    '<div class="main-title">🛡️ AI Defence Scenario Simulation Platform</div>',
     unsafe_allow_html=True
 )
 
 st.markdown(
-    '<div class="subtitle">'
-    'Scenario Analysis • Readiness Assessment • ML Risk Prediction'
-    '</div>',
+    '<div class="subtitle">AI-based scenario simulation, readiness assessment and outcome prediction</div>',
     unsafe_allow_html=True
 )
 
 st.divider()
 
 
-# =====================================================
-# SCENARIO INPUT
-# =====================================================
+# --------------------------------------------------
+# SCENARIO CONFIGURATION
+# --------------------------------------------------
 
-st.markdown(
-    '<div class="section-title">📋 Scenario Configuration</div>',
-    unsafe_allow_html=True
-)
-
-st.write(
-    "Configure the simulated scenario parameters below."
-)
+st.subheader("⚙️ Scenario Configuration")
 
 col1, col2 = st.columns(2)
-
 
 with col1:
 
     weather = st.selectbox(
-        "🌦️ Weather",
-        ["Clear", "Rain", "Heavy Rain", "Fog", "Snow"]
+        "Weather Condition",
+        [
+            "Clear",
+            "Rain",
+            "Heavy Rain",
+            "Fog",
+            "Snow"
+        ]
+    )
+
+    terrain = st.selectbox(
+        "Terrain",
+        [
+            "Plain",
+            "Mountain",
+            "Desert",
+            "Forest"
+        ]
     )
 
     visibility = st.slider(
-        "👁️ Visibility (%)",
+        "Visibility (%)",
         min_value=20,
         max_value=100,
-        value=60
-    )
-
-    equipment = st.slider(
-        "⚙️ Equipment Readiness (%)",
-        min_value=40,
-        max_value=100,
-        value=70
+        value=80
     )
 
 
 with col2:
 
-    terrain = st.selectbox(
-        "🏔️ Terrain",
-        ["Plain", "Mountain", "Desert", "Forest"]
-    )
-
-    communication = st.slider(
-        "📡 Communication Availability (%)",
+    equipment_readiness = st.slider(
+        "Equipment Readiness (%)",
         min_value=40,
         max_value=100,
         value=70
     )
 
-    resources = st.slider(
-        "📦 Resource Availability (%)",
+    communication = st.slider(
+        "Communication Availability (%)",
+        min_value=40,
+        max_value=100,
+        value=70
+    )
+
+    resource_availability = st.slider(
+        "Resource Availability (%)",
         min_value=40,
         max_value=100,
         value=70
@@ -189,15 +164,14 @@ with col2:
 st.write("")
 
 run_button = st.button(
-    "▶️  RUN SIMULATION",
-    type="primary",
+    "🚀 Run Simulation",
     use_container_width=True
 )
 
 
-# =====================================================
+# --------------------------------------------------
 # RUN SIMULATION
-# =====================================================
+# --------------------------------------------------
 
 if run_button:
 
@@ -205,392 +179,249 @@ if run_button:
     readiness, simulation_risk, outcome = run_simulation(
         weather,
         visibility,
-        equipment,
+        equipment_readiness,
         communication,
-        resources
+        resource_availability
     )
 
-
-    # ML scenario
-    scenario = pd.DataFrame({
-        "weather": [weather],
-        "visibility": [visibility],
-        "equipment_readiness": [equipment],
-        "communication": [communication],
-        "resource_availability": [resources],
-        "terrain": [terrain]
-    })
-
-
     # ML prediction
-    prediction = model.predict(scenario)
+    input_data = pd.DataFrame(
+        {
+            "weather": [weather],
+            "visibility": [visibility],
+            "equipment_readiness": [equipment_readiness],
+            "communication": [communication],
+            "resource_availability": [resource_availability],
+            "terrain": [terrain]
+        }
+    )
 
-    probability = model.predict_proba(scenario)
+    prediction = model.predict(input_data)[0]
 
-    ml_risk = prediction[0]
+    probabilities = model.predict_proba(input_data)[0]
 
-    confidence = max(probability[0]) * 100
-
-
-    # Save results
-    st.session_state.baseline = {
-        "readiness": readiness,
-        "risk": simulation_risk,
-        "outcome": outcome,
-        "ml_risk": ml_risk,
-        "confidence": confidence,
-        "visibility": visibility,
-        "weather": weather,
-        "terrain": terrain,
-        "equipment": equipment,
-        "communication": communication,
-        "resources": resources
-    }
+    confidence = max(probabilities) * 100
 
 
-# =====================================================
-# RESULTS
-# =====================================================
+    # Store values
+    st.session_state["readiness"] = readiness
+    st.session_state["simulation_risk"] = simulation_risk
+    st.session_state["outcome"] = outcome
+    st.session_state["prediction"] = prediction
+    st.session_state["confidence"] = confidence
 
-if "baseline" in st.session_state:
 
-    result = st.session_state.baseline
+    # --------------------------------------------------
+    # RESULTS
+    # --------------------------------------------------
 
     st.divider()
 
-    st.markdown(
-        '<div class="section-title">📊 Simulation Results</div>',
-        unsafe_allow_html=True
-    )
+    st.subheader("📊 Simulation Results")
 
-
-    # Result cards
-    col1, col2, col3 = st.columns(3)
-
+    col1, col2, col3, col4 = st.columns(4)
 
     with col1:
 
-        st.markdown(
-            f"""
-            <div class="result-card">
-                <div class="result-label">READINESS SCORE</div>
-                <div class="result-value">
-                    {result["readiness"]}%
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
+        st.metric(
+            "Readiness Score",
+            f"{readiness:.2f}%"
         )
-
 
     with col2:
 
-        st.markdown(
-            f"""
-            <div class="result-card">
-                <div class="result-label">SIMULATION RISK</div>
-                <div class="result-value">
-                    {result["risk"]}
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
+        st.metric(
+            "Simulation Risk",
+            simulation_risk
         )
-
 
     with col3:
 
-        st.markdown(
-            f"""
-            <div class="result-card">
-                <div class="result-label">OUTCOME</div>
-                <div class="result-value">
-                    {result["outcome"]}
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
+        st.metric(
+            "Outcome",
+            outcome
         )
 
-
-    st.write("")
-
-
-    # ML results
-    col1, col2 = st.columns(2)
-
-
-    with col1:
-
-        st.subheader("🤖 ML Risk Prediction")
-
-        st.info(
-            f"Predicted Risk: **{result['ml_risk']}**"
-        )
-
-
-    with col2:
-
-        st.subheader("🎯 Prediction Confidence")
-
-        st.info(
-            f"{result['confidence']:.2f}%"
-        )
-
-
-    # =================================================
-    # SCENARIO SUMMARY
-    # =================================================
-
-    st.divider()
-
-    st.subheader("📝 Scenario Summary")
-
-    summary_col1, summary_col2 = st.columns(2)
-
-
-    with summary_col1:
-
-        st.write(
-            f"**Weather:** {result['weather']}"
-        )
-
-        st.write(
-            f"**Terrain:** {result['terrain']}"
-        )
-
-        st.write(
-            f"**Visibility:** {result['visibility']}%"
-        )
-
-
-    with summary_col2:
-
-        st.write(
-            f"**Equipment Readiness:** "
-            f"{result['equipment']}%"
-        )
-
-        st.write(
-            f"**Communication:** "
-            f"{result['communication']}%"
-        )
-
-        st.write(
-            f"**Resource Availability:** "
-            f"{result['resources']}%"
-        )
-
-
-    # =================================================
-    # WHAT-IF ANALYSIS
-    # =================================================
-
-    st.divider()
-
-    st.markdown(
-        '<div class="section-title">🔄 What-If Analysis</div>',
-        unsafe_allow_html=True
-    )
-
-    st.write(
-        "Change visibility and compare the modified "
-        "scenario with the baseline."
-    )
-
-
-    new_visibility = st.slider(
-        "Change Visibility (%)",
-        min_value=20,
-        max_value=100,
-        value=result["visibility"],
-        key="what_if_visibility"
-    )
-
-
-    if st.button(
-        "🔍 ANALYZE WHAT-IF SCENARIO",
-        use_container_width=True
-    ):
-
-        # Modified simulation
-        new_readiness, new_risk, new_outcome = run_simulation(
-            result["weather"],
-            new_visibility,
-            result["equipment"],
-            result["communication"],
-            result["resources"]
-        )
-
-
-        # Modified ML scenario
-        new_scenario = pd.DataFrame({
-            "weather": [result["weather"]],
-            "visibility": [new_visibility],
-            "equipment_readiness": [result["equipment"]],
-            "communication": [result["communication"]],
-            "resource_availability": [result["resources"]],
-            "terrain": [result["terrain"]]
-        })
-
-
-        new_prediction = model.predict(new_scenario)
-
-        new_probability = model.predict_proba(new_scenario)
-
-        new_ml_risk = new_prediction[0]
-
-        new_confidence = max(new_probability[0]) * 100
-
-
-        # =============================================
-        # COMPARISON
-        # =============================================
-
-        st.subheader("📈 Baseline vs What-If")
-
-
-        col1, col2 = st.columns(2)
-
-
-        with col1:
-
-            st.markdown("### Baseline")
-
-            st.metric(
-                "Visibility",
-                f"{result['visibility']}%"
-            )
-
-            st.metric(
-                "Readiness",
-                f"{result['readiness']}%"
-            )
-
-            st.write(
-                f"Risk: **{result['risk']}**"
-            )
-
-            st.write(
-                f"Outcome: **{result['outcome']}**"
-            )
-
-
-        with col2:
-
-            st.markdown("### What-If")
-
-            st.metric(
-                "Visibility",
-                f"{new_visibility}%"
-            )
-
-            st.metric(
-                "Readiness",
-                f"{new_readiness}%"
-            )
-
-            st.write(
-                f"Risk: **{new_risk}**"
-            )
-
-            st.write(
-                f"Outcome: **{new_outcome}**"
-            )
-
-
-        # Change
-        change = round(
-            new_readiness - result["readiness"],
-            2
-        )
-
-
-        st.divider()
+    with col4:
 
         st.metric(
-            "Change in Readiness",
-            f"{change:+.2f}%"
+            "ML Prediction",
+            prediction
         )
 
 
-        # =============================================
-        # CHART
-        # =============================================
+    # --------------------------------------------------
+    # ML CONFIDENCE
+    # --------------------------------------------------
 
-        chart_data = pd.DataFrame({
-            "Scenario": [
-                "Baseline",
-                "What-If"
+    st.subheader("🤖 AI Prediction")
+
+    st.write(
+        f"The machine-learning model predicts **{prediction} Risk** "
+        f"with approximately **{confidence:.1f}% confidence**."
+    )
+
+
+    # --------------------------------------------------
+    # SCENARIO SUMMARY
+    # --------------------------------------------------
+
+    st.subheader("📋 Scenario Summary")
+
+    summary = pd.DataFrame(
+        {
+            "Parameter": [
+                "Weather",
+                "Terrain",
+                "Visibility",
+                "Equipment Readiness",
+                "Communication",
+                "Resource Availability"
             ],
-            "Readiness": [
-                result["readiness"],
-                new_readiness
+
+            "Value": [
+                weather,
+                terrain,
+                f"{visibility}%",
+                f"{equipment_readiness}%",
+                f"{communication}%",
+                f"{resource_availability}%"
             ]
-        })
+        }
+    )
+
+    st.table(summary)
 
 
-        fig = px.bar(
-            chart_data,
-            x="Scenario",
-            y="Readiness",
-            text="Readiness",
-            title="Readiness Comparison",
-            range_y=[0, 100]
-        )
+    # --------------------------------------------------
+    # READINESS CHART
+    # --------------------------------------------------
+
+    st.subheader("📈 Readiness Analysis")
+
+    chart_data = pd.DataFrame(
+        {
+            "Parameter": [
+                "Visibility",
+                "Equipment",
+                "Communication",
+                "Resources"
+            ],
+
+            "Score": [
+                visibility,
+                equipment_readiness,
+                communication,
+                resource_availability
+            ]
+        }
+    )
+
+    fig = px.bar(
+        chart_data,
+        x="Parameter",
+        y="Score",
+        title="Scenario Readiness Factors",
+        range_y=[0, 100]
+    )
+
+    st.plotly_chart(
+        fig,
+        use_container_width=True
+    )
 
 
-        fig.update_traces(
-            texttemplate="%{text:.2f}",
-            textposition="outside"
-        )
+# --------------------------------------------------
+# WHAT-IF ANALYSIS
+# --------------------------------------------------
+
+st.divider()
+
+st.subheader("🔄 What-If Analysis")
+
+st.write(
+    "Change the visibility condition and compare the new "
+    "readiness with the original scenario."
+)
+
+what_if_visibility = st.slider(
+    "What-If Visibility (%)",
+    min_value=20,
+    max_value=100,
+    value=50
+)
 
 
-        fig.update_layout(
-            height=450
-        )
+if st.button(
+    "🔍 Analyze What-If Scenario",
+    use_container_width=True
+):
 
+    what_if_readiness, what_if_risk, what_if_outcome = run_simulation(
+        weather,
+        what_if_visibility,
+        equipment_readiness,
+        communication,
+        resource_availability
+    )
 
-        st.plotly_chart(
-            fig,
-            use_container_width=True
-        )
+    if "readiness" in st.session_state:
 
+        baseline = st.session_state["readiness"]
 
-        # =============================================
-        # WHAT-IF ML RESULT
-        # =============================================
+        change = what_if_readiness - baseline
 
-        st.subheader("🤖 What-If ML Prediction")
-
-        col1, col2 = st.columns(2)
-
+        col1, col2, col3 = st.columns(3)
 
         with col1:
 
-            st.info(
-                f"Predicted Risk: **{new_ml_risk}**"
+            st.metric(
+                "Baseline Readiness",
+                f"{baseline:.2f}%"
             )
-
 
         with col2:
 
-            st.info(
-                f"Confidence: **{new_confidence:.2f}%**"
+            st.metric(
+                "What-If Readiness",
+                f"{what_if_readiness:.2f}%"
+            )
+
+        with col3:
+
+            st.metric(
+                "Change",
+                f"{change:+.2f}%"
             )
 
 
-# =====================================================
+        st.write(
+            f"**What-If Risk:** {what_if_risk}"
+        )
+
+        st.write(
+            f"**What-If Outcome:** {what_if_outcome}"
+        )
+
+    else:
+
+        st.info(
+            "Run the main simulation first, then perform What-If Analysis."
+        )
+
+
+# --------------------------------------------------
 # FOOTER
-# =====================================================
+# --------------------------------------------------
 
 st.divider()
 
 st.markdown(
-    '<div class="footer">'
-    'AI Defence Scenario Simulation Platform | '
-    'Academic Software Prototype | '
-    'Simulated Non-Sensitive Data'
-    '</div>',
+    """
+    <div class="footer">
+    Academic Prototype | AI-Based Defence Scenario Simulation<br>
+    Uses simulated, non-sensitive data for educational purposes.
+    </div>
+    """,
     unsafe_allow_html=True
 )
