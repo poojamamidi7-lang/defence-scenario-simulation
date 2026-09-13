@@ -23,7 +23,7 @@ project_folder = os.path.abspath(
 
 sys.path.insert(0, project_folder)
 
-from models.simulation_engine import run_simulation
+from simulation_engine import run_simulation
 
 
 # =====================================================
