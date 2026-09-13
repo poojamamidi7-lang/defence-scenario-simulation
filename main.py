@@ -1,0 +1,1 @@
+print("Defence Scenario Simulation Project Started!")

@@ -1,0 +1,1001 @@
+weather,visibility,equipment_readiness,communication,resource_availability,terrain,readiness_score,scenario_risk,outcome
+Fog,95,71,41,86,Forest,63.55,Medium,At Risk
+Snow,87,50,46,62,Mountain,52.60000000000001,High,High Risk
+Heavy Rain,24,49,55,60,Mountain,39.95,High,High Risk
+Snow,56,48,42,60,Forest,44.4,High,High Risk
+Snow,91,53,84,82,Forest,67.05,Medium,At Risk
+Rain,50,52,42,52,Mountain,49.6,High,High Risk
+Heavy Rain,28,100,66,76,Forest,64.80000000000001,Medium,At Risk
+Heavy Rain,70,96,89,72,Desert,75.39999999999999,Low,Favourable
+Heavy Rain,48,64,82,63,Plain,56.150000000000006,Medium,At Risk
+Snow,97,41,79,83,Desert,63.3,Medium,At Risk
+Fog,59,74,77,50,Forest,55.599999999999994,Medium,At Risk
+Heavy Rain,60,46,72,56,Mountain,48.5,High,High Risk
+Snow,30,60,67,43,Mountain,44.15,High,High Risk
+Rain,42,57,40,86,Desert,57.85,Medium,At Risk
+Fog,20,42,94,64,Mountain,43.5,High,High Risk
+Rain,65,81,47,69,Forest,68.0,Medium,At Risk
+Fog,40,93,76,48,Desert,57.75,Medium,At Risk
+Snow,55,100,71,60,Mountain,68.2,Medium,At Risk
+Clear,73,78,99,59,Plain,81.45,Low,Favourable
+Fog,76,80,87,58,Plain,65.10000000000001,Medium,At Risk
+Rain,20,88,82,58,Forest,65.7,Medium,At Risk
+Snow,82,50,76,51,Mountain,54.85000000000001,High,High Risk
+Fog,73,78,43,76,Forest,59.5,Medium,At Risk
+Clear,74,63,69,81,Desert,75.89999999999999,Low,Favourable
+Clear,59,99,45,56,Plain,74.45,Medium,At Risk
+Heavy Rain,34,85,85,76,Desert,64.55,Medium,At Risk
+Heavy Rain,40,58,93,93,Mountain,62.150000000000006,Medium,At Risk
+Rain,66,43,58,87,Forest,61.6,Medium,At Risk
+Fog,92,65,71,78,Forest,64.85000000000001,Medium,At Risk
+Fog,72,77,48,67,Forest,57.7,Medium,At Risk
+Heavy Rain,28,81,51,80,Desert,56.150000000000006,Medium,At Risk
+Fog,93,71,50,74,Plain,61.95,Medium,At Risk
+Fog,71,78,85,86,Desert,70.0,Medium,At Risk
+Clear,76,84,94,87,Desert,90.15,Low,Favourable
+Heavy Rain,45,85,55,57,Mountain,56.0,Medium,At Risk
+Snow,60,75,40,53,Mountain,52.5,High,High Risk
+Heavy Rain,54,79,84,74,Mountain,65.75,Medium,At Risk
+Snow,82,76,94,83,Plain,75.55,Low,Favourable
+Clear,44,72,92,80,Plain,77.4,Low,Favourable
+Rain,94,75,60,99,Mountain,81.8,Low,Favourable
+Fog,57,42,69,46,Mountain,41.400000000000006,High,High Risk
+Clear,21,48,52,80,Plain,56.4,Medium,At Risk
+Fog,26,47,73,52,Forest,39.25,High,High Risk
+Rain,53,72,43,57,Plain,58.65,Medium,At Risk
+Rain,36,98,67,76,Plain,73.9,Medium,At Risk
+Clear,62,45,77,52,Plain,61.55,Medium,At Risk
+Rain,78,80,97,75,Mountain,81.75,Low,Favourable
+Snow,70,78,70,70,Forest,65.8,Medium,At Risk
+Rain,73,43,98,41,Plain,59.5,Medium,At Risk
+Fog,43,52,94,55,Mountain,49.349999999999994,High,High Risk
+Fog,44,88,66,48,Desert,54.8,High,High Risk
+Fog,90,99,44,48,Desert,63.45,Medium,At Risk
+Fog,71,41,64,77,Plain,50.6,High,High Risk
+Snow,89,99,42,50,Desert,66.35,Medium,At Risk
+Heavy Rain,52,44,72,93,Forest,55.449999999999996,Medium,At Risk
+Clear,68,83,43,95,Desert,80.0,Low,Favourable
+Fog,48,66,64,61,Desert,50.75,High,High Risk
+Rain,82,71,59,72,Forest,71.05,Medium,At Risk
+Fog,41,60,73,75,Plain,52.550000000000004,High,High Risk
+Rain,45,47,65,84,Plain,59.45,Medium,At Risk
+Rain,47,77,44,62,Forest,60.650000000000006,Medium,At Risk
+Fog,68,47,74,84,Forest,55.849999999999994,Medium,At Risk
+Snow,90,89,100,84,Forest,83.15,Low,Favourable
+Rain,100,42,67,73,Desert,66.35,Medium,At Risk
+Rain,68,93,68,48,Forest,71.75,Medium,At Risk
+Fog,39,83,48,63,Mountain,52.199999999999996,High,High Risk
+Rain,82,100,91,47,Desert,81.35000000000001,Low,Favourable
+Rain,80,97,77,46,Plain,76.85,Low,Favourable
+Fog,68,42,89,75,Plain,54.849999999999994,High,High Risk
+Fog,90,61,45,57,Plain,52.599999999999994,High,High Risk
+Clear,20,45,58,42,Desert,46.85,High,High Risk
+Snow,32,41,99,67,Mountain,50.3,High,High Risk
+Snow,70,62,83,45,Forest,56.550000000000004,Medium,At Risk
+Rain,75,83,96,83,Forest,84.0,Low,Favourable
+Snow,81,41,50,83,Plain,54.3,High,High Risk
+Rain,51,77,41,60,Plain,60.35,Medium,At Risk
+Clear,49,56,86,67,Desert,68.35,Medium,At Risk
+Fog,48,74,83,79,Mountain,61.849999999999994,Medium,At Risk
+Fog,68,73,83,93,Forest,69.0,Medium,At Risk
+Fog,64,62,48,93,Desert,57.349999999999994,Medium,At Risk
+Snow,49,69,60,40,Forest,48.95,High,High Risk
+Clear,35,91,63,75,Plain,75.19999999999999,Low,Favourable
+Snow,59,47,73,60,Forest,50.85,High,High Risk
+Snow,38,61,61,99,Mountain,58.900000000000006,Medium,At Risk
+Clear,37,83,42,82,Mountain,70.35,Medium,At Risk
+Clear,20,97,51,74,Plain,71.65,Medium,At Risk
+Clear,97,75,67,52,Mountain,77.05000000000001,Low,Favourable
+Clear,66,44,69,96,Mountain,71.4,Medium,At Risk
+Fog,85,52,65,88,Desert,60.2,Medium,At Risk
+Heavy Rain,57,68,87,93,Forest,67.85,Medium,At Risk
+Heavy Rain,70,70,60,93,Plain,65.75,Medium,At Risk
+Clear,82,86,67,49,Plain,77.15,Low,Favourable
+Heavy Rain,23,96,95,92,Plain,72.19999999999999,Medium,At Risk
+Heavy Rain,20,94,65,83,Plain,62.650000000000006,Medium,At Risk
+Clear,27,55,72,86,Plain,65.55,Medium,At Risk
+Heavy Rain,48,81,60,92,Mountain,64.95,Medium,At Risk
+Snow,74,69,74,49,Desert,59.0,Medium,At Risk
+Rain,22,96,91,85,Plain,77.44999999999999,Low,Favourable
+Rain,51,94,73,52,Desert,70.7,Medium,At Risk
+Clear,29,55,80,76,Desert,65.05,Medium,At Risk
+Fog,93,51,90,77,Mountain,63.7,Medium,At Risk
+Clear,53,56,86,63,Plain,68.15,Medium,At Risk
+Fog,74,55,57,41,Mountain,45.699999999999996,High,High Risk
+Rain,51,51,97,61,Plain,62.7,Medium,At Risk
+Clear,69,47,50,56,Mountain,59.25,Medium,At Risk
+Snow,26,59,96,75,Desert,56.8,Medium,At Risk
+Heavy Rain,27,42,62,53,Plain,37.75,High,High Risk
+Fog,84,55,87,49,Forest,55.7,Medium,At Risk
+Heavy Rain,76,69,61,74,Desert,62.05000000000001,Medium,At Risk
+Heavy Rain,86,84,56,64,Forest,65.8,Medium,At Risk
+Clear,78,62,44,42,Desert,61.599999999999994,Medium,At Risk
+Heavy Rain,91,67,83,86,Mountain,71.75,Medium,At Risk
+Snow,73,90,50,77,Plain,68.35,Medium,At Risk
+Heavy Rain,86,79,69,56,Desert,64.64999999999999,Medium,At Risk
+Clear,70,93,54,51,Mountain,75.1,Low,Favourable
+Snow,27,44,66,93,Plain,50.25,High,High Risk
+Rain,53,59,74,91,Plain,68.8,Medium,At Risk
+Heavy Rain,54,79,72,63,Desert,60.599999999999994,Medium,At Risk
+Clear,97,95,59,68,Plain,86.45,Low,Favourable
+Rain,51,83,100,82,Desert,79.75,Low,Favourable
+Rain,65,40,55,64,Plain,54.0,High,High Risk
+Fog,35,96,73,75,Forest,63.94999999999999,Medium,At Risk
+Snow,87,69,41,97,Mountain,67.0,Medium,At Risk
+Heavy Rain,56,60,74,99,Forest,63.75,Medium,At Risk
+Clear,73,59,79,65,Desert,72.3,Medium,At Risk
+Fog,33,45,95,77,Forest,50.599999999999994,High,High Risk
+Snow,74,61,67,40,Desert,52.55,High,High Risk
+Fog,67,57,86,59,Plain,55.3,Medium,At Risk
+Snow,26,47,78,94,Plain,53.75,High,High Risk
+Snow,93,78,45,67,Desert,64.65,Medium,At Risk
+Heavy Rain,26,71,48,55,Forest,45.4,High,High Risk
+Snow,52,72,59,86,Plain,61.900000000000006,Medium,At Risk
+Fog,42,92,99,56,Mountain,64.39999999999999,Medium,At Risk
+Snow,38,55,40,79,Plain,47.6,High,High Risk
+Heavy Rain,38,51,47,67,Mountain,43.6,High,High Risk
+Heavy Rain,55,77,94,97,Forest,73.0,Medium,At Risk
+Fog,48,91,62,51,Mountain,56.599999999999994,Medium,At Risk
+Rain,79,73,42,66,Mountain,66.25,Medium,At Risk
+Rain,21,100,43,93,Mountain,71.05000000000001,Medium,At Risk
+Snow,20,53,97,92,Mountain,57.95,Medium,At Risk
+Clear,66,75,64,81,Plain,77.5,Low,Favourable
+Snow,88,72,86,98,Mountain,77.5,Low,Favourable
+Fog,39,62,77,86,Plain,56.400000000000006,Medium,At Risk
+Fog,30,89,54,69,Mountain,55.2,Medium,At Risk
+Fog,21,84,60,80,Desert,55.599999999999994,Medium,At Risk
+Fog,86,41,74,73,Forest,54.599999999999994,High,High Risk
+Fog,31,80,96,76,Mountain,62.400000000000006,Medium,At Risk
+Heavy Rain,39,60,92,45,Desert,50.45,High,High Risk
+Rain,24,41,92,46,Mountain,49.05,High,High Risk
+Fog,56,66,85,71,Mountain,59.05,Medium,At Risk
+Clear,57,96,91,71,Mountain,85.94999999999999,Low,Favourable
+Clear,28,48,53,92,Desert,61.0,Medium,At Risk
+Clear,72,40,75,64,Forest,64.4,Medium,At Risk
+Clear,63,50,51,72,Desert,63.300000000000004,Medium,At Risk
+Heavy Rain,43,42,56,94,Forest,50.0,High,High Risk
+Clear,100,91,78,97,Mountain,96.69999999999999,Low,Favourable
+Fog,93,62,48,46,Plain,51.4,High,High Risk
+Snow,49,65,74,91,Mountain,63.099999999999994,Medium,At Risk
+Clear,78,43,99,96,Forest,79.45,Low,Favourable
+Heavy Rain,100,57,52,51,Desert,55.1,Medium,At Risk
+Heavy Rain,100,94,54,55,Mountain,69.45,Medium,At Risk
+Clear,33,45,57,55,Desert,52.5,High,High Risk
+Snow,28,74,90,82,Desert,63.0,Medium,At Risk
+Clear,59,61,72,92,Desert,75.55,Low,Favourable
+Heavy Rain,85,82,45,75,Mountain,65.45,Medium,At Risk
+Rain,44,54,98,52,Desert,60.3,Medium,At Risk
+Fog,92,61,66,46,Desert,54.45,High,High Risk
+Heavy Rain,41,99,62,75,Mountain,66.0,Medium,At Risk
+Clear,23,76,98,86,Desert,77.3,Low,Favourable
+Fog,45,91,66,90,Mountain,66.55,Medium,At Risk
+Clear,77,81,73,48,Forest,75.35,Low,Favourable
+Clear,48,51,95,71,Forest,69.2,Medium,At Risk
+Rain,56,86,85,50,Forest,70.8,Medium,At Risk
+Fog,94,88,77,47,Desert,66.75,Medium,At Risk
+Fog,89,81,53,72,Plain,64.75,Medium,At Risk
+Rain,37,77,75,62,Plain,64.85,Medium,At Risk
+Heavy Rain,61,57,92,64,Desert,58.55,Medium,At Risk
+Clear,60,84,47,95,Plain,79.55,Low,Favourable
+Snow,57,74,74,47,Mountain,56.849999999999994,Medium,At Risk
+Clear,53,69,58,84,Plain,72.35,Medium,At Risk
+Clear,36,63,69,61,Desert,63.3,Medium,At Risk
+Heavy Rain,56,81,53,98,Desert,66.65,Medium,At Risk
+Clear,44,69,98,43,Mountain,68.30000000000001,Medium,At Risk
+Rain,95,53,59,79,Forest,69.1,Medium,At Risk
+Rain,46,45,88,42,Desert,53.05,High,High Risk
+Fog,76,42,64,68,Mountain,49.7,High,High Risk
+Snow,50,55,79,80,Plain,58.05,Medium,At Risk
+Clear,25,46,63,68,Plain,55.7,Medium,At Risk
+Clear,59,91,53,73,Mountain,77.5,Low,Favourable
+Heavy Rain,31,53,65,73,Mountain,48.0,High,High Risk
+Rain,72,48,77,67,Desert,63.349999999999994,Medium,At Risk
+Snow,90,54,62,52,Plain,55.3,Medium,At Risk
+Fog,29,60,61,54,Mountain,42.5,High,High Risk
+Rain,64,74,87,99,Plain,80.85000000000001,Low,Favourable
+Fog,36,41,96,62,Mountain,46.25,High,High Risk
+Heavy Rain,45,66,58,83,Plain,56.44999999999999,Medium,At Risk
+Heavy Rain,81,41,85,65,Forest,55.8,Medium,At Risk
+Clear,65,74,90,43,Desert,72.65,Medium,At Risk
+Snow,83,57,42,65,Plain,54.199999999999996,High,High Risk
+Fog,21,53,81,79,Forest,48.699999999999996,High,High Risk
+Rain,73,59,58,48,Plain,58.85,Medium,At Risk
+Heavy Rain,84,57,48,94,Plain,61.849999999999994,Medium,At Risk
+Clear,70,49,67,44,Forest,60.55,Medium,At Risk
+Clear,72,64,59,95,Plain,77.35,Low,Favourable
+Fog,55,41,84,71,Plain,49.900000000000006,High,High Risk
+Heavy Rain,45,64,46,59,Desert,47.35,High,High Risk
+Snow,48,100,53,89,Forest,70.45,Medium,At Risk
+Heavy Rain,40,93,48,50,Forest,54.65,High,High Risk
+Fog,30,72,98,54,Mountain,54.3,High,High Risk
+Fog,59,75,99,71,Plain,65.6,Medium,At Risk
+Heavy Rain,30,70,94,67,Desert,58.05,Medium,At Risk
+Fog,55,53,96,61,Plain,54.0,High,High Risk
+Heavy Rain,78,40,99,80,Plain,61.400000000000006,Medium,At Risk
+Rain,58,85,58,56,Mountain,66.94999999999999,Medium,At Risk
+Heavy Rain,73,55,86,98,Plain,67.55,Medium,At Risk
+Heavy Rain,74,93,91,65,Desert,73.8,Medium,At Risk
+Fog,43,85,53,83,Desert,59.69999999999999,Medium,At Risk
+Fog,41,100,95,46,Mountain,63.7,Medium,At Risk
+Clear,88,91,77,81,Plain,90.10000000000001,Low,Favourable
+Clear,75,42,92,96,Desert,77.1,Low,Favourable
+Rain,52,74,100,65,Plain,72.55,Medium,At Risk
+Clear,55,80,75,64,Plain,75.0,Low,Favourable
+Heavy Rain,39,45,79,49,Plain,43.599999999999994,High,High Risk
+Fog,100,64,56,98,Mountain,68.1,Medium,At Risk
+Clear,81,52,69,84,Plain,74.2,Medium,At Risk
+Clear,92,92,48,58,Desert,79.69999999999999,Low,Favourable
+Rain,45,73,72,50,Plain,61.449999999999996,Medium,At Risk
+Rain,85,47,95,52,Desert,65.45,Medium,At Risk
+Heavy Rain,92,60,91,92,Plain,72.60000000000001,Medium,At Risk
+Fog,92,73,64,47,Desert,58.5,Medium,At Risk
+Rain,59,43,53,79,Desert,57.2,Medium,At Risk
+Clear,36,64,50,43,Plain,55.349999999999994,Medium,At Risk
+Fog,20,54,92,86,Plain,52.8,High,High Risk
+Fog,80,43,74,70,Desert,53.349999999999994,High,High Risk
+Clear,62,84,80,67,Forest,79.55,Low,Favourable
+Rain,61,99,98,50,Mountain,78.95,Low,Favourable
+Clear,44,51,53,82,Forest,62.75,Medium,At Risk
+Fog,58,71,69,40,Forest,50.25,High,High Risk
+Snow,54,71,80,88,Plain,66.65,Medium,At Risk
+Snow,22,67,43,86,Mountain,50.95,High,High Risk
+Heavy Rain,63,52,98,91,Forest,65.15,Medium,At Risk
+Clear,70,70,43,77,Plain,71.35,Medium,At Risk
+Clear,31,53,67,63,Forest,58.9,Medium,At Risk
+Heavy Rain,38,59,47,93,Forest,52.9,High,High Risk
+Heavy Rain,63,57,41,99,Plain,57.5,Medium,At Risk
+Heavy Rain,78,68,80,96,Plain,71.4,Medium,At Risk
+Fog,68,99,100,86,Plain,79.75,Low,Favourable
+Clear,80,45,85,70,Mountain,71.25,Medium,At Risk
+Fog,36,71,61,80,Forest,54.25,High,High Risk
+Heavy Rain,93,68,80,85,Plain,71.65,Medium,At Risk
+Clear,76,82,95,89,Desert,90.15,Low,Favourable
+Fog,74,41,94,65,Forest,54.2,High,High Risk
+Fog,66,99,55,88,Desert,70.85,Medium,At Risk
+Heavy Rain,31,62,68,89,Mountain,55.75,Medium,At Risk
+Clear,81,58,88,44,Plain,70.1,Medium,At Risk
+Heavy Rain,99,70,87,59,Desert,68.45,Medium,At Risk
+Clear,27,90,69,91,Mountain,78.45,Low,Favourable
+Snow,40,44,51,80,Plain,46.6,High,High Risk
+Rain,100,58,74,50,Desert,67.6,Medium,At Risk
+Rain,99,73,50,95,Desert,79.1,Low,Favourable
+Rain,89,49,85,93,Mountain,75.2,Low,Favourable
+Heavy Rain,91,64,89,72,Plain,68.39999999999999,Medium,At Risk
+Snow,44,41,60,89,Plain,50.4,High,High Risk
+Clear,31,50,60,77,Desert,59.95,Medium,At Risk
+Fog,34,89,44,66,Desert,53.25,High,High Risk
+Clear,78,100,87,73,Desert,91.25,Low,Favourable
+Fog,45,70,59,54,Plain,48.8,High,High Risk
+Clear,45,95,76,71,Mountain,80.2,Low,Favourable
+Snow,66,54,42,100,Mountain,58.5,Medium,At Risk
+Fog,51,48,83,97,Plain,57.849999999999994,Medium,At Risk
+Heavy Rain,29,62,72,60,Forest,48.9,High,High Risk
+Clear,35,58,92,85,Mountain,71.95,Medium,At Risk
+Clear,90,48,100,44,Desert,70.8,Medium,At Risk
+Fog,36,74,48,45,Forest,43.95,High,High Risk
+Heavy Rain,42,60,100,77,Forest,60.650000000000006,Medium,At Risk
+Heavy Rain,45,48,48,61,Mountain,42.65,High,High Risk
+Snow,26,67,43,57,Forest,44.5,High,High Risk
+Heavy Rain,33,85,74,53,Forest,56.39999999999999,Medium,At Risk
+Heavy Rain,98,90,56,49,Mountain,66.55,Medium,At Risk
+Heavy Rain,26,46,73,85,Mountain,49.15,High,High Risk
+Rain,28,55,63,52,Forest,50.45,High,High Risk
+Snow,67,55,71,70,Desert,57.349999999999994,Medium,At Risk
+Clear,91,99,40,69,Plain,83.1,Low,Favourable
+Fog,78,72,47,42,Forest,50.699999999999996,High,High Risk
+Clear,58,43,84,69,Forest,65.7,Medium,At Risk
+Snow,37,43,62,45,Desert,39.1,High,High Risk
+Fog,78,78,86,68,Forest,67.1,Medium,At Risk
+Snow,36,79,79,47,Forest,55.400000000000006,Medium,At Risk
+Heavy Rain,33,56,51,83,Plain,49.15,High,High Risk
+Fog,50,76,93,84,Plain,66.19999999999999,Medium,At Risk
+Heavy Rain,43,78,51,82,Plain,58.599999999999994,Medium,At Risk
+Clear,79,99,85,83,Mountain,93.2,Low,Favourable
+Clear,64,91,86,72,Mountain,84.85,Low,Favourable
+Fog,22,68,54,56,Plain,43.0,High,High Risk
+Fog,56,91,80,87,Plain,70.8,Medium,At Risk
+Snow,62,75,58,50,Mountain,55.75,Medium,At Risk
+Snow,59,99,65,52,Desert,65.45,Medium,At Risk
+Heavy Rain,74,77,91,89,Forest,74.2,Medium,At Risk
+Fog,58,78,68,50,Forest,55.0,Medium,At Risk
+Clear,34,89,61,70,Plain,72.65,Medium,At Risk
+Snow,23,76,79,67,Desert,56.75,Medium,At Risk
+Snow,44,91,60,83,Mountain,66.4,Medium,At Risk
+Clear,32,100,90,45,Plain,75.65,Low,Favourable
+Snow,52,74,77,80,Desert,64.69999999999999,Medium,At Risk
+Heavy Rain,35,46,59,55,Desert,40.65,High,High Risk
+Fog,61,66,96,43,Desert,55.25,Medium,At Risk
+Clear,85,67,68,74,Mountain,77.55000000000001,Low,Favourable
+Fog,74,61,90,99,Mountain,68.9,Medium,At Risk
+Snow,61,53,43,87,Forest,54.1,High,High Risk
+Snow,53,46,94,95,Forest,62.25,Medium,At Risk
+Clear,49,76,46,98,Desert,75.1,Low,Favourable
+Heavy Rain,32,100,67,65,Desert,63.05,Medium,At Risk
+Rain,32,61,67,96,Mountain,65.15,Medium,At Risk
+Clear,37,44,43,51,Forest,49.15,High,High Risk
+Rain,51,94,61,50,Desert,67.80000000000001,Medium,At Risk
+Rain,58,41,51,76,Forest,55.150000000000006,Medium,At Risk
+Heavy Rain,65,66,84,64,Forest,60.89999999999999,Medium,At Risk
+Rain,48,60,42,57,Desert,53.25,High,High Risk
+Rain,81,93,61,58,Mountain,75.45,Low,Favourable
+Heavy Rain,81,77,83,62,Desert,67.25,Medium,At Risk
+Rain,76,54,41,94,Desert,65.80000000000001,Medium,At Risk
+Rain,35,60,63,77,Forest,59.85,Medium,At Risk
+Rain,75,49,73,93,Desert,70.0,Medium,At Risk
+Clear,29,62,66,57,Mountain,59.95,Medium,At Risk
+Clear,49,97,94,65,Desert,83.8,Low,Favourable
+Clear,44,95,80,45,Mountain,74.3,Medium,At Risk
+Heavy Rain,24,78,40,43,Mountain,42.849999999999994,High,High Risk
+Snow,84,44,47,83,Forest,55.35,Medium,At Risk
+Rain,68,40,62,90,Plain,62.5,Medium,At Risk
+Rain,22,52,77,68,Plain,55.0,Medium,At Risk
+Heavy Rain,64,60,45,98,Forest,59.3,Medium,At Risk
+Rain,33,65,61,100,Desert,66.55000000000001,Medium,At Risk
+Clear,49,89,64,73,Forest,77.0,Low,Favourable
+Snow,87,84,57,56,Mountain,65.19999999999999,Medium,At Risk
+Fog,37,60,56,82,Plain,50.1,High,High Risk
+Rain,81,92,100,82,Forest,88.89999999999999,Low,Favourable
+Clear,56,57,51,92,Desert,69.35,Medium,At Risk
+Fog,44,76,45,55,Forest,48.15,High,High Risk
+Snow,67,84,65,41,Plain,59.05,Medium,At Risk
+Fog,84,71,66,73,Forest,63.099999999999994,Medium,At Risk
+Clear,72,75,47,94,Forest,78.55,Low,Favourable
+Fog,98,56,58,47,Plain,52.550000000000004,High,High Risk
+Heavy Rain,92,74,99,52,Mountain,69.1,Medium,At Risk
+Fog,34,88,81,81,Mountain,64.05,Medium,At Risk
+Rain,68,99,40,47,Plain,68.0,Medium,At Risk
+Rain,87,50,96,69,Forest,71.35000000000001,Medium,At Risk
+Heavy Rain,31,60,68,71,Plain,50.55,High,High Risk
+Clear,78,91,84,75,Mountain,88.0,Low,Favourable
+Rain,56,94,88,86,Desert,83.2,Low,Favourable
+Snow,80,92,74,69,Forest,73.25,Medium,At Risk
+Rain,62,65,79,40,Mountain,60.95,Medium,At Risk
+Rain,89,43,53,82,Forest,63.95,Medium,At Risk
+Clear,58,73,74,78,Plain,76.45,Low,Favourable
+Fog,75,91,87,56,Desert,68.25,Medium,At Risk
+Rain,82,87,84,98,Plain,88.15,Low,Favourable
+Heavy Rain,65,99,59,59,Desert,66.2,Medium,At Risk
+Fog,30,57,95,63,Forest,50.7,High,High Risk
+Snow,81,79,88,89,Forest,76.69999999999999,Low,Favourable
+Clear,96,74,52,61,Plain,75.75,Low,Favourable
+Snow,44,80,100,68,Desert,66.8,Medium,At Risk
+Fog,90,68,77,61,Desert,62.44999999999999,Medium,At Risk
+Fog,71,91,88,83,Forest,74.4,Medium,At Risk
+Fog,23,68,85,48,Plain,47.4,High,High Risk
+Snow,78,77,88,76,Desert,72.15,Medium,At Risk
+Fog,91,81,47,49,Forest,58.19999999999999,Medium,At Risk
+Snow,39,60,82,75,Mountain,56.95,Medium,At Risk
+Fog,82,81,59,76,Plain,65.55,Medium,At Risk
+Heavy Rain,73,52,99,67,Mountain,61.349999999999994,Medium,At Risk
+Fog,93,88,72,67,Plain,70.55,Medium,At Risk
+Snow,76,80,65,81,Forest,69.45,Medium,At Risk
+Rain,60,56,78,82,Desert,67.7,Medium,At Risk
+Fog,22,95,60,60,Desert,54.650000000000006,High,High Risk
+Rain,25,48,92,63,Desert,55.95,Medium,At Risk
+Heavy Rain,24,80,88,81,Plain,62.650000000000006,Medium,At Risk
+Clear,24,40,81,99,Forest,64.75,Medium,At Risk
+Heavy Rain,73,41,82,79,Mountain,57.10000000000001,Medium,At Risk
+Fog,66,99,93,41,Forest,66.7,Medium,At Risk
+Rain,68,87,80,94,Mountain,83.55,Low,Favourable
+Rain,28,68,48,47,Plain,50.75,High,High Risk
+Snow,39,72,63,87,Plain,60.349999999999994,Medium,At Risk
+Rain,80,49,76,66,Mountain,64.85,Medium,At Risk
+Snow,54,89,88,61,Mountain,67.80000000000001,Medium,At Risk
+Clear,69,97,80,76,Mountain,87.75,Low,Favourable
+Fog,81,99,56,66,Forest,68.55,Medium,At Risk
+Snow,36,79,63,96,Mountain,64.45,Medium,At Risk
+Clear,22,60,60,68,Plain,59.4,Medium,At Risk
+Rain,51,67,90,42,Plain,62.15,Medium,At Risk
+Rain,32,50,98,83,Desert,64.25,Medium,At Risk
+Clear,92,94,78,52,Mountain,84.9,Low,Favourable
+Rain,87,73,94,84,Forest,82.75,Low,Favourable
+Clear,33,47,80,49,Forest,56.3,Medium,At Risk
+Snow,30,98,78,75,Forest,67.65,Medium,At Risk
+Snow,75,61,52,48,Desert,51.74999999999999,High,High Risk
+Clear,86,47,50,93,Plain,71.9,Medium,At Risk
+Snow,48,88,85,95,Forest,74.15,Medium,At Risk
+Snow,28,54,58,94,Plain,52.6,High,High Risk
+Snow,86,56,50,66,Desert,56.3,Medium,At Risk
+Heavy Rain,44,99,52,73,Mountain,64.1,Medium,At Risk
+Fog,95,62,85,90,Mountain,70.2,Medium,At Risk
+Rain,61,63,84,40,Mountain,61.05,Medium,At Risk
+Heavy Rain,28,84,40,71,Forest,52.75,High,High Risk
+Snow,98,58,79,64,Mountain,64.7,Medium,At Risk
+Clear,59,44,83,68,Forest,65.8,Medium,At Risk
+Snow,44,71,58,46,Desert,49.75,High,High Risk
+Fog,24,83,51,88,Desert,56.05,Medium,At Risk
+Snow,30,40,47,42,Forest,32.9,High,High Risk
+Clear,78,62,47,59,Plain,66.44999999999999,Medium,At Risk
+Fog,98,76,100,59,Mountain,70.95,Medium,At Risk
+Snow,57,47,92,92,Mountain,62.25,Medium,At Risk
+Fog,91,52,84,69,Mountain,60.45,Medium,At Risk
+Rain,24,47,51,74,Forest,49.95,High,High Risk
+Rain,67,96,100,74,Desert,85.5,Low,Favourable
+Snow,37,62,87,88,Mountain,61.5,Medium,At Risk
+Fog,89,82,72,78,Desert,70.4,Medium,At Risk
+Clear,56,40,84,66,Mountain,63.5,Medium,At Risk
+Snow,79,84,65,65,Mountain,67.45,Medium,At Risk
+Rain,67,90,78,53,Forest,73.75,Medium,At Risk
+Rain,96,63,67,56,Plain,68.65,Medium,At Risk
+Snow,47,74,97,57,Forest,61.95,Medium,At Risk
+Fog,88,63,44,84,Mountain,59.45,Medium,At Risk
+Rain,96,56,47,91,Mountain,70.94999999999999,Medium,At Risk
+Fog,100,44,64,68,Plain,55.2,Medium,At Risk
+Rain,59,59,66,59,Desert,60.400000000000006,Medium,At Risk
+Rain,64,60,85,92,Desert,73.8,Medium,At Risk
+Heavy Rain,81,79,62,66,Mountain,64.75,Medium,At Risk
+Rain,77,97,69,57,Desert,77.39999999999999,Low,Favourable
+Clear,86,70,84,43,Mountain,74.25,Medium,At Risk
+Snow,75,85,86,40,Plain,64.95,Medium,At Risk
+Snow,59,75,62,89,Plain,65.69999999999999,Medium,At Risk
+Fog,59,50,88,40,Mountain,46.900000000000006,High,High Risk
+Rain,96,91,86,97,Plain,92.5,Low,Favourable
+Clear,52,54,59,65,Forest,62.349999999999994,Medium,At Risk
+Fog,25,58,57,84,Forest,47.699999999999996,High,High Risk
+Heavy Rain,38,46,57,59,Plain,41.85,High,High Risk
+Fog,99,90,41,91,Mountain,72.25,Medium,At Risk
+Fog,59,67,43,62,Mountain,49.35,High,High Risk
+Rain,78,90,69,49,Plain,73.14999999999999,Medium,At Risk
+Heavy Rain,78,82,72,98,Desert,75.19999999999999,Low,Favourable
+Fog,67,97,75,50,Forest,64.85,Medium,At Risk
+Clear,60,44,57,80,Desert,63.8,Medium,At Risk
+Clear,32,44,76,80,Mountain,62.0,Medium,At Risk
+Snow,64,69,58,44,Mountain,52.550000000000004,High,High Risk
+Heavy Rain,72,93,86,97,Desert,80.39999999999999,Low,Favourable
+Heavy Rain,61,71,67,40,Plain,52.449999999999996,High,High Risk
+Snow,82,47,79,56,Desert,55.650000000000006,Medium,At Risk
+Fog,46,49,59,61,Desert,43.400000000000006,High,High Risk
+Heavy Rain,57,77,88,73,Forest,66.2,Medium,At Risk
+Clear,79,86,72,95,Forest,89.05,Low,Favourable
+Clear,26,71,51,84,Desert,66.25,Medium,At Risk
+Rain,24,87,97,80,Desert,74.65,Medium,At Risk
+Heavy Rain,64,67,90,68,Mountain,63.25,Medium,At Risk
+Fog,77,56,54,43,Forest,46.55,High,High Risk
+Snow,50,70,80,44,Forest,54.5,High,High Risk
+Snow,42,47,78,50,Mountain,45.95,High,High Risk
+Fog,61,79,41,95,Plain,61.80000000000001,Medium,At Risk
+Rain,29,64,68,90,Forest,64.3,Medium,At Risk
+Snow,51,48,80,60,Forest,51.0,High,High Risk
+Heavy Rain,72,41,49,74,Plain,49.05,High,High Risk
+Rain,49,54,41,51,Forest,49.65,High,High Risk
+Heavy Rain,58,89,90,65,Forest,69.0,Medium,At Risk
+Clear,50,42,50,90,Plain,62.2,Medium,At Risk
+Rain,21,88,52,58,Plain,59.9,Medium,At Risk
+Snow,97,75,49,84,Desert,69.45,Medium,At Risk
+Rain,96,43,53,99,Mountain,69.6,Medium,At Risk
+Rain,31,53,57,46,Mountain,47.65,High,High Risk
+Rain,58,80,90,86,Plain,79.1,Low,Favourable
+Rain,85,80,93,94,Plain,87.1,Low,Favourable
+Heavy Rain,32,64,48,46,Forest,41.9,High,High Risk
+Clear,65,97,96,65,Desert,87.4,Low,Favourable
+Fog,46,94,78,79,Desert,67.45,Medium,At Risk
+Rain,36,89,67,44,Plain,62.75,Medium,At Risk
+Snow,79,49,42,60,Forest,49.35,High,High Risk
+Rain,83,60,59,53,Forest,62.650000000000006,Medium,At Risk
+Snow,54,75,45,43,Mountain,49.8,High,High Risk
+Heavy Rain,89,51,66,62,Mountain,56.349999999999994,Medium,At Risk
+Snow,49,66,92,81,Forest,64.55,Medium,At Risk
+Fog,90,79,41,59,Mountain,58.599999999999994,Medium,At Risk
+Clear,93,41,68,54,Plain,65.05000000000001,Medium,At Risk
+Snow,82,93,77,89,Forest,79.60000000000001,Low,Favourable
+Snow,47,52,42,91,Mountain,51.75,High,High Risk
+Clear,79,92,55,84,Desert,85.0,Low,Favourable
+Fog,98,71,69,68,Forest,65.25,Medium,At Risk
+Rain,56,70,79,47,Forest,63.25,Medium,At Risk
+Snow,41,55,41,80,Desert,48.650000000000006,High,High Risk
+Clear,87,71,56,87,Plain,80.2,Low,Favourable
+Heavy Rain,39,71,80,58,Desert,55.15,Medium,At Risk
+Clear,87,99,51,87,Forest,89.0,Low,Favourable
+Heavy Rain,83,73,74,78,Plain,68.45,Medium,At Risk
+Fog,36,50,82,85,Mountain,52.35,High,High Risk
+Rain,31,49,40,67,Mountain,48.099999999999994,High,High Risk
+Clear,41,54,94,85,Mountain,72.15,Medium,At Risk
+Snow,36,56,84,96,Forest,60.599999999999994,Medium,At Risk
+Fog,29,79,54,66,Desert,50.75,High,High Risk
+Clear,84,57,65,43,Plain,65.5,Medium,At Risk
+Snow,41,94,76,97,Mountain,73.55000000000001,Medium,At Risk
+Clear,69,48,60,54,Plain,61.099999999999994,Medium,At Risk
+Heavy Rain,33,64,88,74,Forest,57.099999999999994,Medium,At Risk
+Clear,83,79,70,76,Mountain,82.25,Low,Favourable
+Clear,66,98,64,40,Forest,75.3,Low,Favourable
+Clear,48,53,62,42,Desert,56.05,Medium,At Risk
+Fog,95,99,63,86,Forest,77.75,Low,Favourable
+Clear,55,97,96,63,Forest,84.9,Low,Favourable
+Snow,71,64,77,66,Desert,61.5,Medium,At Risk
+Heavy Rain,95,89,67,79,Plain,75.3,Low,Favourable
+Heavy Rain,26,61,60,100,Desert,55.55,Medium,At Risk
+Clear,48,91,93,75,Desert,83.80000000000001,Low,Favourable
+Fog,30,69,82,73,Forest,54.8,High,High Risk
+Fog,52,59,57,68,Plain,49.449999999999996,High,High Risk
+Snow,25,60,75,63,Mountain,49.75,High,High Risk
+Clear,98,83,74,63,Desert,84.2,Low,Favourable
+Heavy Rain,51,71,84,81,Plain,64.1,Medium,At Risk
+Fog,70,90,94,43,Desert,65.05,Medium,At Risk
+Clear,94,85,48,42,Desert,73.65,Medium,At Risk
+Fog,77,88,92,73,Desert,72.85,Medium,At Risk
+Fog,45,95,77,96,Desert,71.65,Medium,At Risk
+Heavy Rain,65,60,97,88,Forest,67.4,Medium,At Risk
+Rain,48,74,69,62,Plain,64.8,Medium,At Risk
+Snow,23,97,99,92,Plain,74.35,Medium,At Risk
+Snow,100,71,83,95,Plain,78.19999999999999,Low,Favourable
+Heavy Rain,32,69,73,91,Desert,59.900000000000006,Medium,At Risk
+Fog,58,94,71,62,Forest,64.2,Medium,At Risk
+Clear,34,78,42,84,Desert,68.5,Medium,At Risk
+Fog,48,88,42,44,Desert,49.8,High,High Risk
+Heavy Rain,48,51,67,70,Plain,50.35,High,High Risk
+Snow,94,80,83,92,Desert,79.4,Low,Favourable
+Fog,51,86,54,80,Mountain,61.099999999999994,Medium,At Risk
+Snow,21,57,80,96,Desert,57.150000000000006,Medium,At Risk
+Clear,66,60,62,100,Mountain,76.6,Low,Favourable
+Snow,97,52,79,96,Desert,70.4,Medium,At Risk
+Snow,41,60,50,99,Forest,56.95,Medium,At Risk
+Rain,94,47,87,93,Forest,75.9,Low,Favourable
+Rain,46,85,71,45,Plain,64.4,Medium,At Risk
+Rain,86,79,97,76,Desert,83.25,Low,Favourable
+Snow,100,85,98,96,Mountain,86.35,Low,Favourable
+Heavy Rain,75,46,96,49,Mountain,54.55,High,High Risk
+Snow,40,62,93,79,Desert,61.05,Medium,At Risk
+Heavy Rain,66,83,75,46,Mountain,60.75,Medium,At Risk
+Heavy Rain,99,71,99,78,Forest,75.95,Low,Favourable
+Rain,78,50,72,77,Mountain,66.75,Medium,At Risk
+Fog,25,61,63,60,Plain,43.95,High,High Risk
+Clear,38,61,78,100,Forest,74.55,Medium,At Risk
+Rain,76,82,73,59,Forest,73.25,Medium,At Risk
+Rain,88,64,95,42,Forest,69.5,Medium,At Risk
+Fog,22,61,67,90,Desert,51.65,High,High Risk
+Clear,20,67,76,61,Desert,62.9,Medium,At Risk
+Snow,77,68,46,86,Forest,62.900000000000006,Medium,At Risk
+Snow,57,52,43,43,Desert,41.95,High,High Risk
+Rain,34,57,76,67,Mountain,58.7,Medium,At Risk
+Clear,53,41,95,51,Desert,61.7,Medium,At Risk
+Rain,80,68,40,77,Desert,67.05,Medium,At Risk
+Heavy Rain,54,60,40,90,Forest,54.3,High,High Risk
+Rain,83,54,86,75,Plain,71.45,Medium,At Risk
+Rain,44,91,59,86,Plain,73.95,Medium,At Risk
+Snow,43,66,58,80,Plain,56.3,Medium,At Risk
+Snow,31,89,68,44,Mountain,54.95,High,High Risk
+Snow,37,70,49,52,Desert,47.7,High,High Risk
+Heavy Rain,34,54,99,62,Plain,53.0,High,High Risk
+Snow,99,90,57,97,Forest,79.94999999999999,Low,Favourable
+Clear,46,62,67,89,Plain,71.55,Medium,At Risk
+Fog,91,63,74,69,Plain,62.3,Medium,At Risk
+Clear,79,83,82,76,Desert,85.25,Low,Favourable
+Clear,65,52,86,64,Desert,69.4,Medium,At Risk
+Snow,36,61,70,87,Desert,57.3,Medium,At Risk
+Fog,72,82,66,66,Mountain,62.80000000000001,Medium,At Risk
+Fog,27,76,50,90,Mountain,54.5,High,High Risk
+Fog,98,100,88,53,Plain,75.45,Low,Favourable
+Heavy Rain,46,72,88,96,Desert,68.0,Medium,At Risk
+Snow,65,95,77,87,Plain,76.4,Low,Favourable
+Fog,69,42,44,98,Forest,51.8,High,High Risk
+Heavy Rain,90,93,47,86,Forest,73.44999999999999,Medium,At Risk
+Rain,22,58,73,93,Desert,62.55,Medium,At Risk
+Rain,83,62,87,75,Desert,74.45,Medium,At Risk
+Heavy Rain,63,68,91,78,Forest,66.1,Medium,At Risk
+Heavy Rain,72,69,95,55,Desert,63.3,Medium,At Risk
+Snow,43,78,51,95,Mountain,62.849999999999994,Medium,At Risk
+Snow,79,83,77,61,Mountain,68.5,Medium,At Risk
+Rain,22,86,40,60,Desert,57.5,Medium,At Risk
+Fog,39,64,70,93,Forest,57.45,Medium,At Risk
+Rain,65,76,43,60,Plain,63.199999999999996,Medium,At Risk
+Fog,34,86,88,47,Desert,56.25,Medium,At Risk
+Fog,44,47,84,88,Desert,54.05,High,High Risk
+Snow,97,81,89,55,Plain,72.3,Medium,At Risk
+Clear,90,97,44,98,Desert,90.25,Low,Favourable
+Clear,36,55,69,94,Plain,68.75,Medium,At Risk
+Heavy Rain,28,47,95,70,Forest,50.55,High,High Risk
+Snow,57,40,63,81,Mountain,51.25,High,High Risk
+Fog,67,83,98,49,Forest,64.3,Medium,At Risk
+Clear,79,44,42,71,Mountain,62.35,Medium,At Risk
+Fog,82,42,50,98,Plain,55.599999999999994,Medium,At Risk
+Clear,21,40,84,73,Mountain,58.25,Medium,At Risk
+Clear,91,43,43,48,Forest,58.85,Medium,At Risk
+Clear,30,79,65,56,Mountain,65.65,Medium,At Risk
+Snow,83,74,66,50,Plain,61.2,Medium,At Risk
+Rain,96,71,85,71,Mountain,78.8,Low,Favourable
+Fog,100,81,93,49,Desert,69.19999999999999,Medium,At Risk
+Snow,91,73,82,61,Forest,68.4,Medium,At Risk
+Snow,40,82,66,96,Desert,66.9,Medium,At Risk
+Snow,37,64,81,56,Plain,53.0,High,High Risk
+Snow,83,49,90,43,Mountain,55.5,Medium,At Risk
+Snow,57,60,89,87,Desert,64.95,Medium,At Risk
+Heavy Rain,51,85,45,91,Desert,63.69999999999999,Medium,At Risk
+Fog,30,78,98,86,Mountain,64.4,Medium,At Risk
+Snow,64,66,100,64,Mountain,64.9,Medium,At Risk
+Fog,52,66,54,98,Forest,58.8,Medium,At Risk
+Heavy Rain,60,41,92,60,Desert,51.75,High,High Risk
+Heavy Rain,27,80,69,76,Desert,58.2,Medium,At Risk
+Fog,30,87,81,77,Plain,61.900000000000006,Medium,At Risk
+Clear,70,52,76,88,Forest,74.4,Medium,At Risk
+Rain,60,48,97,40,Plain,58.2,Medium,At Risk
+Clear,36,91,100,64,Desert,80.05,Low,Favourable
+Clear,95,75,76,90,Plain,87.95,Low,Favourable
+Clear,65,61,81,75,Desert,74.3,Medium,At Risk
+Snow,51,81,99,56,Desert,65.35,Medium,At Risk
+Heavy Rain,98,65,76,80,Plain,69.55000000000001,Medium,At Risk
+Clear,99,97,74,63,Plain,89.3,Low,Favourable
+Heavy Rain,73,93,62,41,Mountain,61.8,Medium,At Risk
+Fog,39,51,45,79,Mountain,44.4,High,High Risk
+Rain,52,56,43,54,Mountain,52.1,High,High Risk
+Fog,93,53,57,71,Desert,56.3,Medium,At Risk
+Fog,59,53,99,78,Plain,59.650000000000006,Medium,At Risk
+Snow,51,96,48,98,Forest,70.9,Medium,At Risk
+Rain,21,73,88,45,Desert,58.599999999999994,Medium,At Risk
+Fog,52,92,68,40,Forest,56.19999999999999,Medium,At Risk
+Fog,96,96,52,86,Plain,74.69999999999999,Medium,At Risk
+Rain,49,59,98,62,Desert,65.55,Medium,At Risk
+Rain,52,50,86,97,Forest,69.35,Medium,At Risk
+Fog,96,55,91,78,Forest,66.15,Medium,At Risk
+Rain,45,90,56,100,Mountain,76.7,Low,Favourable
+Fog,41,70,84,96,Mountain,63.5,Medium,At Risk
+Fog,85,94,71,56,Mountain,68.1,Medium,At Risk
+Snow,57,45,87,73,Desert,55.8,Medium,At Risk
+Clear,65,95,61,98,Plain,87.95,Low,Favourable
+Fog,34,58,43,80,Plain,45.699999999999996,High,High Risk
+Heavy Rain,63,76,44,68,Mountain,57.0,Medium,At Risk
+Clear,68,97,76,48,Mountain,79.75,Low,Favourable
+Clear,94,43,80,52,Mountain,67.85,Medium,At Risk
+Clear,80,86,88,45,Forest,79.94999999999999,Low,Favourable
+Snow,86,100,52,45,Mountain,66.85,Medium,At Risk
+Fog,25,43,73,59,Forest,39.4,High,High Risk
+Snow,28,59,84,91,Plain,58.8,Medium,At Risk
+Fog,25,49,61,92,Desert,47.35,High,High Risk
+Snow,92,63,92,42,Desert,62.35000000000001,Medium,At Risk
+Snow,51,93,98,56,Desert,69.35,Medium,At Risk
+Heavy Rain,60,74,62,88,Desert,64.3,Medium,At Risk
+Snow,95,65,90,51,Forest,65.5,Medium,At Risk
+Rain,27,76,42,87,Forest,62.15,Medium,At Risk
+Heavy Rain,91,77,81,86,Mountain,74.85,Medium,At Risk
+Snow,69,60,73,84,Forest,63.400000000000006,Medium,At Risk
+Clear,81,93,71,94,Mountain,91.45,Low,Favourable
+Rain,81,79,84,40,Mountain,70.64999999999999,Medium,At Risk
+Rain,26,78,90,56,Desert,64.5,Medium,At Risk
+Rain,94,60,97,42,Forest,69.7,Medium,At Risk
+Heavy Rain,99,49,88,65,Forest,62.80000000000001,Medium,At Risk
+Snow,23,77,60,54,Mountain,50.05,High,High Risk
+Snow,25,85,85,75,Mountain,63.5,Medium,At Risk
+Clear,77,43,83,71,Plain,69.8,Medium,At Risk
+Clear,41,99,60,71,Plain,77.6,Low,Favourable
+Rain,45,96,83,43,Mountain,69.94999999999999,Medium,At Risk
+Clear,22,84,50,57,Plain,63.05,Medium,At Risk
+Heavy Rain,60,59,78,88,Plain,62.25,Medium,At Risk
+Snow,79,56,43,58,Mountain,51.5,High,High Risk
+Rain,33,94,90,82,Mountain,78.0,Low,Favourable
+Clear,94,46,40,91,Forest,70.65,Medium,At Risk
+Heavy Rain,31,43,67,74,Mountain,45.15,High,High Risk
+Heavy Rain,31,68,63,79,Mountain,54.349999999999994,High,High Risk
+Clear,32,53,100,53,Desert,63.199999999999996,Medium,At Risk
+Snow,44,42,74,97,Forest,55.55,Medium,At Risk
+Clear,64,63,52,72,Forest,68.25,Medium,At Risk
+Rain,38,76,86,53,Forest,64.64999999999999,Medium,At Risk
+Clear,74,55,73,73,Desert,71.9,Medium,At Risk
+Heavy Rain,64,97,50,100,Mountain,73.75,Medium,At Risk
+Clear,27,94,75,94,Forest,81.8,Low,Favourable
+Snow,72,91,90,43,Forest,68.0,Medium,At Risk
+Fog,74,43,100,63,Plain,55.599999999999994,Medium,At Risk
+Clear,51,95,56,98,Forest,84.15,Low,Favourable
+Snow,70,63,74,68,Mountain,60.849999999999994,Medium,At Risk
+Snow,63,73,99,58,Mountain,65.45,Medium,At Risk
+Heavy Rain,89,69,57,45,Plain,56.599999999999994,Medium,At Risk
+Snow,37,57,79,96,Forest,60.150000000000006,Medium,At Risk
+Snow,41,58,61,72,Forest,51.7,High,High Risk
+Snow,56,70,96,88,Forest,69.9,Medium,At Risk
+Snow,75,99,63,79,Desert,75.0,Low,Favourable
+Rain,78,99,97,58,Forest,84.15,Low,Favourable
+Rain,22,58,58,92,Mountain,59.3,Medium,At Risk
+Heavy Rain,47,88,76,40,Mountain,57.400000000000006,Medium,At Risk
+Clear,93,85,78,44,Desert,79.94999999999999,Low,Favourable
+Snow,54,58,60,66,Desert,52.599999999999994,High,High Risk
+Clear,80,61,47,55,Forest,65.5,Medium,At Risk
+Clear,73,63,67,45,Plain,66.3,Medium,At Risk
+Heavy Rain,82,84,44,79,Desert,66.35,Medium,At Risk
+Snow,98,51,56,52,Desert,54.650000000000006,High,High Risk
+Snow,26,69,76,87,Forest,59.3,Medium,At Risk
+Fog,95,97,75,74,Forest,76.44999999999999,Low,Favourable
+Clear,68,77,93,58,Desert,78.65,Low,Favourable
+Clear,50,92,58,51,Plain,71.55,Medium,At Risk
+Rain,77,70,66,55,Desert,66.85,Medium,At Risk
+Fog,80,75,92,98,Forest,75.15,Low,Favourable
+Rain,43,58,73,82,Forest,64.0,Medium,At Risk
+Rain,39,87,50,49,Desert,60.5,Medium,At Risk
+Rain,56,84,93,64,Plain,75.2,Low,Favourable
+Heavy Rain,23,75,84,59,Desert,54.400000000000006,High,High Risk
+Heavy Rain,39,69,86,70,Desert,58.650000000000006,Medium,At Risk
+Rain,79,94,51,43,Forest,69.65,Medium,At Risk
+Fog,43,88,93,83,Plain,68.75,Medium,At Risk
+Clear,69,94,60,62,Mountain,79.2,Low,Favourable
+Fog,68,72,93,41,Plain,57.650000000000006,Medium,At Risk
+Snow,70,57,50,95,Desert,60.7,Medium,At Risk
+Heavy Rain,55,91,78,61,Desert,65.69999999999999,Medium,At Risk
+Clear,85,88,67,90,Desert,88.69999999999999,Low,Favourable
+Clear,98,98,44,96,Plain,91.7,Low,Favourable
+Snow,53,67,56,76,Forest,57.25,Medium,At Risk
+Snow,55,98,95,47,Desert,69.05,Medium,At Risk
+Rain,25,86,59,46,Desert,58.39999999999999,Medium,At Risk
+Heavy Rain,58,50,80,53,Plain,50.35,High,High Risk
+Heavy Rain,61,96,85,95,Mountain,78.55,Low,Favourable
+Fog,77,99,97,94,Mountain,82.95,Low,Favourable
+Rain,31,93,51,42,Forest,59.45,Medium,At Risk
+Rain,22,84,45,89,Forest,65.05,Medium,At Risk
+Rain,37,72,56,55,Desert,57.550000000000004,Medium,At Risk
+Rain,59,56,90,94,Plain,72.9,Medium,At Risk
+Heavy Rain,40,45,58,58,Desert,41.85,High,High Risk
+Heavy Rain,34,43,65,90,Forest,49.35,High,High Risk
+Rain,45,59,87,57,Plain,61.3,Medium,At Risk
+Fog,27,87,83,91,Plain,65.2,Medium,At Risk
+Clear,61,86,83,55,Forest,77.65,Low,Favourable
+Clear,63,66,91,47,Mountain,70.65,Medium,At Risk
+Fog,33,54,71,99,Mountain,54.45,High,High Risk
+Rain,97,45,45,72,Plain,62.15,Medium,At Risk
+Heavy Rain,21,86,94,88,Desert,67.1,Medium,At Risk
+Clear,56,53,97,51,Mountain,66.9,Medium,At Risk
+Snow,88,99,75,92,Desert,83.25,Low,Favourable
+Snow,57,50,77,50,Mountain,49.8,High,High Risk
+Fog,60,78,50,44,Mountain,50.3,High,High Risk
+Rain,81,48,72,66,Desert,63.9,Medium,At Risk
+Clear,79,65,63,51,Forest,68.9,Medium,At Risk
+Rain,33,55,62,56,Mountain,52.25,High,High Risk
+Clear,21,44,54,45,Mountain,46.65,High,High Risk
+Fog,89,96,66,72,Desert,72.6,Medium,At Risk
+Fog,36,91,50,44,Forest,50.05,High,High Risk
+Snow,47,100,96,96,Mountain,80.6,Low,Favourable
+Rain,85,49,90,67,Mountain,68.9,Medium,At Risk
+Snow,54,89,89,53,Forest,66.0,Medium,At Risk
+Rain,24,42,56,44,Mountain,41.7,High,High Risk
+Snow,84,52,90,93,Forest,69.25,Medium,At Risk
+Heavy Rain,59,82,92,95,Forest,74.65,Medium,At Risk
+Heavy Rain,95,88,53,98,Desert,76.9,Low,Favourable
+Heavy Rain,75,69,66,72,Plain,62.349999999999994,Medium,At Risk
+Heavy Rain,55,93,57,89,Forest,69.19999999999999,Medium,At Risk
+Clear,64,84,67,87,Desert,82.35,Low,Favourable
+Heavy Rain,42,45,90,80,Plain,54.15,High,High Risk
+Fog,66,56,86,58,Mountain,54.5,High,High Risk
+Fog,50,98,86,61,Plain,66.75,Medium,At Risk
+Clear,30,84,43,44,Forest,60.0,Medium,At Risk
+Heavy Rain,29,90,46,98,Forest,63.0,Medium,At Risk
+Heavy Rain,86,92,84,41,Forest,68.44999999999999,Medium,At Risk
+Heavy Rain,33,58,74,69,Forest,50.95,High,High Risk
+Snow,99,81,87,86,Forest,80.05,Low,Favourable
+Rain,93,74,48,78,Desert,73.6,Medium,At Risk
+Snow,29,85,47,43,Forest,48.699999999999996,High,High Risk
+Rain,95,65,91,72,Desert,77.95,Low,Favourable
+Heavy Rain,20,90,84,52,Mountain,57.3,Medium,At Risk
+Heavy Rain,24,44,56,59,Forest,38.15,High,High Risk
+Snow,39,68,56,93,Forest,59.05,Medium,At Risk
+Snow,27,76,88,46,Plain,54.1,High,High Risk
+Rain,62,59,72,54,Mountain,60.949999999999996,Medium,At Risk
+Fog,95,88,71,62,Forest,69.5,Medium,At Risk
+Rain,20,60,47,53,Forest,47.65,High,High Risk
+Snow,76,49,58,62,Mountain,52.45,High,High Risk
+Snow,83,44,77,58,Desert,54.9,High,High Risk
+Clear,47,75,42,93,Forest,72.3,Medium,At Risk
+Snow,56,45,98,68,Plain,56.55,Medium,At Risk
+Clear,66,65,44,95,Forest,73.5,Medium,At Risk
+Fog,95,43,52,59,Plain,49.199999999999996,High,High Risk
+Rain,56,78,86,68,Plain,72.7,Medium,At Risk
+Rain,68,78,85,63,Forest,73.65,Medium,At Risk
+Clear,63,89,100,57,Forest,83.0,Low,Favourable
+Rain,75,74,70,49,Plain,67.15,Medium,At Risk
+Snow,47,40,94,80,Mountain,55.2,Medium,At Risk
+Heavy Rain,98,63,55,96,Mountain,68.65,Medium,At Risk
+Clear,25,96,89,47,Forest,73.14999999999999,Medium,At Risk
+Rain,80,75,71,65,Desert,72.7,Medium,At Risk
+Clear,39,45,61,68,Mountain,57.75,Medium,At Risk
+Clear,97,80,68,49,Forest,78.25,Low,Favourable
+Heavy Rain,21,93,61,56,Mountain,54.95,High,High Risk
+Snow,92,85,82,41,Desert,67.8,Medium,At Risk
+Clear,56,99,42,45,Forest,70.5,Medium,At Risk
+Rain,39,83,93,97,Desert,79.69999999999999,Low,Favourable
+Fog,45,99,49,44,Forest,54.45,High,High Risk
+Clear,48,96,81,67,Desert,81.14999999999999,Low,Favourable
+Clear,20,70,60,80,Mountain,65.5,Medium,At Risk
+Heavy Rain,54,59,55,44,Mountain,45.45,High,High Risk
+Snow,89,63,51,57,Desert,57.3,Medium,At Risk
+Fog,78,64,41,65,Desert,52.45,High,High Risk
+Rain,88,75,80,59,Desert,74.6,Medium,At Risk
+Fog,52,60,63,80,Forest,54.0,High,High Risk
+Rain,70,69,74,88,Mountain,74.95,Medium,At Risk
+Snow,97,63,95,66,Forest,69.95,Medium,At Risk
+Rain,31,83,69,88,Mountain,71.05,Medium,At Risk
+Heavy Rain,39,81,96,51,Plain,60.099999999999994,Medium,At Risk
+Heavy Rain,72,69,69,46,Forest,55.849999999999994,Medium,At Risk
+Heavy Rain,62,61,86,98,Mountain,67.45,Medium,At Risk
+Heavy Rain,69,67,74,42,Mountain,54.55,High,High Risk
+Fog,48,46,58,49,Forest,39.55,High,High Risk
+Snow,76,74,89,73,Forest,70.15,Medium,At Risk
+Rain,58,94,47,64,Mountain,69.9,Medium,At Risk
+Rain,75,67,65,74,Forest,69.95,Medium,At Risk
+Heavy Rain,62,53,88,55,Desert,54.3,High,High Risk
+Heavy Rain,69,95,79,41,Forest,65.1,Medium,At Risk
+Clear,42,49,46,99,Forest,64.5,Medium,At Risk
+Snow,63,55,69,63,Forest,54.400000000000006,High,High Risk
+Fog,57,55,46,49,Mountain,42.1,High,High Risk
+Rain,42,93,42,77,Desert,68.6,Medium,At Risk
+Clear,64,70,40,61,Plain,65.55,Medium,At Risk
+Clear,71,81,75,65,Plain,78.8,Low,Favourable
+Rain,99,64,64,82,Desert,75.5,Low,Favourable
+Fog,69,52,76,94,Desert,60.7,Medium,At Risk
+Clear,27,45,40,78,Desert,53.65,High,High Risk
+Clear,20,83,54,66,Mountain,65.35,Medium,At Risk
+Snow,27,48,76,68,Plain,47.4,High,High Risk
+Fog,48,84,52,86,Desert,60.900000000000006,Medium,At Risk
+Clear,24,75,79,77,Mountain,71.1,Medium,At Risk
+Fog,66,95,47,59,Plain,60.599999999999994,Medium,At Risk
+Rain,53,82,44,66,Forest,64.6,Medium,At Risk
+Heavy Rain,84,59,99,80,Mountain,69.25,Medium,At Risk
+Clear,74,57,48,93,Plain,72.6,Medium,At Risk
+Snow,62,97,40,59,Mountain,62.099999999999994,Medium,At Risk
+Rain,93,82,75,83,Plain,83.05,Low,Favourable
+Fog,49,96,74,58,Plain,62.69999999999999,Medium,At Risk
+Rain,36,60,41,59,Forest,51.15,High,High Risk
+Clear,45,43,79,74,Mountain,63.349999999999994,Medium,At Risk
+Fog,27,89,62,86,Desert,60.44999999999999,Medium,At Risk
+Heavy Rain,66,72,48,41,Forest,50.25,High,High Risk
+Rain,95,66,73,69,Forest,73.94999999999999,Medium,At Risk
+Clear,91,46,85,92,Plain,79.3,Low,Favourable
+Snow,65,45,53,73,Desert,50.6,High,High Risk
+Fog,87,54,43,61,Mountain,50.15,High,High Risk
+Rain,52,57,69,42,Desert,54.650000000000006,High,High Risk
+Rain,20,71,70,45,Desert,54.099999999999994,High,High Risk
+Heavy Rain,38,95,77,54,Desert,61.75,Medium,At Risk
+Heavy Rain,50,50,50,66,Desert,46.0,High,High Risk
+Snow,99,59,74,49,Desert,60.5,Medium,At Risk
+Snow,33,63,47,48,Plain,43.05,High,High Risk
+Clear,72,54,42,72,Plain,64.69999999999999,Medium,At Risk
+Clear,67,87,53,71,Forest,77.2,Low,Favourable
+Snow,88,46,99,87,Plain,68.25,Medium,At Risk
+Snow,81,60,52,45,Forest,51.85,High,High Risk
+Fog,85,81,84,80,Forest,72.14999999999999,Medium,At Risk
+Heavy Rain,83,65,71,98,Mountain,70.05000000000001,Medium,At Risk
+Clear,89,83,73,75,Desert,85.19999999999999,Low,Favourable
+Heavy Rain,82,95,84,98,Plain,82.95,Low,Favourable
+Heavy Rain,92,53,100,99,Mountain,73.7,Medium,At Risk
+Snow,52,96,58,41,Plain,58.849999999999994,Medium,At Risk
+Fog,60,76,98,68,Forest,65.19999999999999,Medium,At Risk
+Rain,67,97,77,43,Plain,73.5,Medium,At Risk
+Fog,32,60,55,40,Desert,38.4,High,High Risk
+Fog,92,57,41,58,Forest,51.050000000000004,High,High Risk
+Heavy Rain,96,44,79,65,Forest,58.650000000000006,Medium,At Risk
+Fog,50,42,56,64,Mountain,41.9,High,High Risk
+Clear,94,62,94,49,Desert,76.55,Low,Favourable
+Heavy Rain,87,65,73,92,Forest,69.75,Medium,At Risk
+Clear,23,76,81,54,Desert,65.9,Medium,At Risk
+Rain,38,63,99,98,Plain,73.95,Medium,At Risk
+Heavy Rain,89,88,55,61,Desert,66.85,Medium,At Risk
+Rain,32,58,77,90,Forest,64.6,Medium,At Risk
+Heavy Rain,42,90,99,87,Mountain,73.45,Medium,At Risk
+Snow,94,64,41,60,Forest,57.400000000000006,Medium,At Risk
+Fog,20,60,41,98,Desert,47.7,High,High Risk
+Snow,73,51,65,95,Desert,62.2,Medium,At Risk
+Rain,90,96,52,61,Forest,77.25,Low,Favourable
+Fog,34,100,95,75,Desert,69.55,Medium,At Risk
+Heavy Rain,84,80,86,73,Plain,72.25,Medium,At Risk
+Fog,95,72,70,69,Forest,65.45,Medium,At Risk
+Clear,90,89,99,64,Mountain,89.95,Low,Favourable
+Fog,34,92,73,84,Forest,64.6,Medium,At Risk
+Clear,40,43,78,67,Plain,60.4,Medium,At Risk
+Fog,38,81,42,40,Plain,44.349999999999994,High,High Risk
+Clear,79,96,47,88,Plain,85.79999999999998,Low,Favourable
+Rain,52,46,62,84,Plain,59.9,Medium,At Risk
+Snow,68,61,53,43,Plain,49.300000000000004,High,High Risk
+Heavy Rain,54,94,95,46,Mountain,66.2,Medium,At Risk
+Fog,63,72,94,88,Desert,68.6,Medium,At Risk
+Snow,30,56,66,48,Plain,43.8,High,High Risk
+Heavy Rain,91,63,93,75,Plain,69.6,Medium,At Risk
+Heavy Rain,97,100,68,58,Forest,74.5,Medium,At Risk
+Clear,93,100,78,40,Mountain,84.2,Low,Favourable
+Rain,85,73,92,49,Mountain,73.2,Medium,At Risk
+Rain,65,67,78,75,Desert,70.80000000000001,Medium,At Risk
+Snow,28,97,40,48,Mountain,52.55,High,High Risk
+Rain,22,82,56,84,Forest,65.30000000000001,Medium,At Risk
+Fog,45,80,80,85,Forest,64.25,Medium,At Risk
+Rain,91,78,69,81,Desert,79.55,Low,Favourable
+Snow,67,61,92,71,Forest,63.900000000000006,Medium,At Risk
+Rain,85,88,52,71,Plain,75.94999999999999,Low,Favourable
+Fog,89,56,60,45,Plain,50.65,High,High Risk
+Clear,47,73,58,87,Forest,73.3,Medium,At Risk
+Snow,45,45,92,77,Desert,55.400000000000006,Medium,At Risk
+Clear,44,85,58,56,Mountain,69.15,Medium,At Risk
+Clear,31,45,96,49,Desert,58.400000000000006,Medium,At Risk
+Clear,24,73,64,89,Mountain,70.4,Medium,At Risk
+Heavy Rain,67,40,61,66,Forest,48.1,High,High Risk
+Heavy Rain,56,49,70,93,Forest,57.599999999999994,Medium,At Risk
+Clear,98,60,56,89,Plain,79.05000000000001,Low,Favourable
+Snow,63,44,94,74,Mountain,58.3,Medium,At Risk
+Fog,34,41,62,91,Desert,46.3,High,High Risk
+Fog,62,61,71,98,Forest,62.45,Medium,At Risk
+Rain,67,87,49,60,Desert,68.65,Medium,At Risk
+Snow,89,96,49,64,Plain,70.19999999999999,Medium,At Risk
+Heavy Rain,65,41,75,67,Mountain,51.1,High,High Risk
+Clear,62,49,47,86,Mountain,65.44999999999999,Medium,At Risk
+Rain,40,73,93,54,Forest,65.65,Medium,At Risk
+Fog,42,55,91,43,Mountain,46.599999999999994,High,High Risk
+Heavy Rain,99,87,59,68,Forest,71.05,Medium,At Risk
+Heavy Rain,66,90,71,98,Plain,75.4,Low,Favourable
+Clear,34,100,89,48,Mountain,76.6,Low,Favourable
+Fog,44,78,53,66,Forest,53.199999999999996,High,High Risk
+Snow,55,61,89,65,Desert,59.39999999999999,Medium,At Risk
+Heavy Rain,94,51,67,58,Forest,56.55,Medium,At Risk
+Clear,70,63,85,95,Mountain,81.8,Low,Favourable
+Snow,34,86,91,67,Plain,64.85,Medium,At Risk
+Fog,87,79,92,56,Mountain,67.45,Medium,At Risk
+Heavy Rain,40,77,63,82,Mountain,60.05000000000001,Medium,At Risk
+Snow,32,99,54,96,Forest,68.85,Medium,At Risk
+Snow,38,98,61,80,Desert,67.1,Medium,At Risk
+Snow,53,49,69,81,Mountain,54.8,High,High Risk
+Heavy Rain,97,74,43,89,Desert,68.15,Medium,At Risk
+Heavy Rain,87,90,52,59,Forest,66.05,Medium,At Risk
+Rain,71,88,98,84,Desert,85.6,Low,Favourable
+Fog,46,71,62,79,Forest,56.19999999999999,Medium,At Risk
+Clear,48,46,47,78,Plain,59.6,Medium,At Risk
+Snow,47,60,57,88,Desert,56.8,Medium,At Risk
+Rain,54,59,51,92,Desert,64.65,Medium,At Risk
+Clear,27,65,94,62,Plain,67.45,Medium,At Risk
+Rain,35,43,70,86,Desert,57.55,Medium,At Risk
+Heavy Rain,55,85,53,71,Plain,61.099999999999994,Medium,At Risk
+Snow,49,91,73,91,Mountain,72.0,Medium,At Risk
+Clear,37,61,57,86,Forest,66.65,Medium,At Risk
+Clear,21,54,95,72,Plain,65.1,Medium,At Risk
+Clear,68,95,73,96,Desert,90.45,Low,Favourable
+Clear,96,79,50,85,Plain,83.1,Low,Favourable
+Clear,23,60,80,44,Desert,57.6,Medium,At Risk
+Rain,94,54,51,82,Mountain,68.4,Medium,At Risk
+Snow,26,61,88,87,Plain,58.900000000000006,Medium,At Risk
+Heavy Rain,93,91,54,73,Mountain,71.5,Medium,At Risk
+Heavy Rain,58,67,96,79,Forest,66.0,Medium,At Risk
+Heavy Rain,32,53,70,50,Desert,43.449999999999996,High,High Risk
+Heavy Rain,50,66,88,100,Desert,67.69999999999999,Medium,At Risk
+Rain,90,100,97,89,Mountain,94.65,Low,Favourable
+Fog,82,80,68,42,Forest,58.5,Medium,At Risk
+Snow,75,79,65,97,Plain,72.9,Medium,At Risk
+Clear,61,97,57,72,Plain,80.55,Low,Favourable
+Fog,80,67,71,50,Desert,56.150000000000006,Medium,At Risk
+Heavy Rain,61,65,61,55,Mountain,52.900000000000006,High,High Risk
+Fog,75,88,77,57,Mountain,65.44999999999999,Medium,At Risk
+Snow,55,41,56,69,Plain,46.800000000000004,High,High Risk
+Clear,87,64,62,87,Forest,78.94999999999999,Low,Favourable
+Clear,26,95,63,94,Forest,79.55000000000001,Low,Favourable
+Snow,73,42,89,49,Plain,52.35,High,High Risk
+Snow,20,47,47,57,Plain,37.1,High,High Risk
+Heavy Rain,63,83,80,77,Mountain,68.9,Medium,At Risk
+Clear,64,72,45,58,Forest,66.5,Medium,At Risk
+Fog,66,81,44,75,Plain,59.099999999999994,Medium,At Risk
+Rain,32,91,83,98,Plain,79.35,Low,Favourable
+Rain,41,74,96,52,Desert,66.30000000000001,Medium,At Risk
+Snow,40,45,68,95,Plain,54.1,High,High Risk
+Heavy Rain,28,78,67,85,Plain,59.55,Medium,At Risk
+Rain,45,91,50,42,Forest,61.349999999999994,Medium,At Risk
+Clear,28,62,96,49,Mountain,63.75,Medium,At Risk
+Snow,34,64,40,77,Forest,49.45,High,High Risk
+Fog,29,98,82,40,Mountain,56.5,Medium,At Risk
+Snow,61,89,58,94,Desert,71.45,Medium,At Risk
+Fog,91,82,48,95,Plain,70.25,Medium,At Risk
+Snow,43,58,66,66,Desert,51.6,High,High Risk
+Snow,99,44,73,85,Mountain,64.05000000000001,Medium,At Risk
+Snow,68,90,83,47,Forest,66.44999999999999,Medium,At Risk
+Fog,45,50,43,90,Forest,47.6,High,High Risk
+Fog,56,95,75,85,Desert,70.7,Medium,At Risk
+Snow,87,51,57,81,Mountain,59.900000000000006,Medium,At Risk
+Rain,69,49,54,56,Desert,55.75,Medium,At Risk
+Heavy Rain,43,47,90,48,Desert,47.05,High,High Risk
+Heavy Rain,38,63,52,100,Plain,57.05,Medium,At Risk
+Heavy Rain,79,99,58,45,Desert,65.30000000000001,Medium,At Risk
+Fog,58,67,88,82,Plain,63.150000000000006,Medium,At Risk
+Fog,93,80,45,64,Plain,61.599999999999994,Medium,At Risk
+Rain,37,75,87,78,Forest,70.55,Medium,At Risk
+Heavy Rain,38,76,95,88,Plain,67.19999999999999,Medium,At Risk
+Heavy Rain,55,60,51,99,Plain,58.95,Medium,At Risk
+Snow,93,47,90,67,Forest,62.8,Medium,At Risk
+Fog,74,94,76,72,Desert,70.9,Medium,At Risk
+Heavy Rain,88,48,56,93,Mountain,60.849999999999994,Medium,At Risk
+Rain,66,86,97,76,Mountain,81.7,Low,Favourable
+Rain,68,54,62,48,Mountain,56.9,Medium,At Risk
+Heavy Rain,52,87,65,57,Desert,60.099999999999994,Medium,At Risk
+Fog,40,85,68,95,Plain,65.1,Medium,At Risk
+Rain,100,79,72,98,Mountain,86.55,Low,Favourable
+Snow,41,57,99,60,Desert,55.95,Medium,At Risk
+Rain,67,81,66,41,Plain,65.2,Medium,At Risk
+Clear,56,99,64,100,Forest,88.65,Low,Favourable
+Clear,34,59,95,97,Mountain,75.7,Low,Favourable
+Fog,54,45,94,82,Plain,55.849999999999994,Medium,At Risk
+Heavy Rain,90,51,49,98,Mountain,62.14999999999999,Medium,At Risk
